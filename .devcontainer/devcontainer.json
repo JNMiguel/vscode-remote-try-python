@@ -24,7 +24,8 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"dbaeumer.vscode-eslint",
-                		"dprint.dprint"
+                		"dprint.dprint",
+				"GitHub.copilot"
 			]
 		}
 	},
