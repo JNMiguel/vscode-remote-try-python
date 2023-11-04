@@ -12,9 +12,19 @@
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
-			"settings": {},
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "bash",
+		                "terminal.integrated.profiles.linux": {
+		                    "bash": {
+		                        "path": "/bin/bash",
+		                        "icon": "terminal-bash"
+		                    }
+		                }
+			},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"dbaeumer.vscode-eslint",
+                		"dprint.dprint"
 			]
 		}
 	},
